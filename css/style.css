@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* header */
+header {
+    margin: 0 auto;
+    height: 500px;
+    background-image: url('../img/jumbo.png'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.container-logo, .container-login {
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    height: 60px;
+}
+
+.navbar {
+    width: 500px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.navbar ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.button {
+    background-color: #fff;
+    color: #282840;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0px 5px;
+    
+}
+
+.button.small {
+    font-size: 13px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px; 
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.button.small.log-in {
+    margin-top: 20px;
+}
+
+.container-text{
+    margin: 40px auto;
+    width: 600px;
+    color: #fff;
+}
+
+#special-white {
+    font-size: 40px;
+    margin: 15px 0 10px;
+}
+
+p {
+    line-height: 30px;
+    font-size: 15.5px;
+}
+
+.container-buttons {
+    width: 600px;
+    margin: 40px auto;
+}
+
+.button.big {
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px; 
+}
+
+.button.big.download {
+    margin-right: 30px;
+}
+
+.button.big.download::before {
+    content:'\2193';
+    margin-right: 5px;
+}
+
+#special-black {
+    background-color: #282840;
+    color: #fff;
+}
+
+/* box pages*/
+/* box one */
+.box {
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+}
+
+.image-small {
+    width: 500px;
+    height: 500px;
+}
+
+.image-small.left {
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.position {
+    width: 300px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.text {
+    width: 280px;
+    font-size: 30px;
+}
+
+/* box two */
+
+.box.two {
+    width: 100%;
+    /* background: url('../img/wave.svg'); */
+}
+
+.image-small.right {
+    margin-right: 200px;
+}
+
+.position.text.left {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: red;
+}
+
+/* box four */
+#special-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+#special-paragraph {
+    width: 770px;
+    margin: 0 auto;
+}
+
+.image-big {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin: 0 150px;
+}
+
+.final-text {
+    text-align: center;
+    margin: 150px auto;
+    width: 400px;
+    height: 50px;
+    /* background-image: url('../img/stars.svg'); */
+}
+
+#special-blue {
+    background-color: #89a0e3;
+    color: #fff;
+    margin: 30px auto;
+}
+
+/* footer */
