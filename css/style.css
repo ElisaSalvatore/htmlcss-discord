@@ -21,6 +21,19 @@
 .relative {
     position: relative
 }
+
+.container-wave {
+    width: 100vw;
+    background-color: #f6f6f6;
+}
+
+.svg-wave {
+    margin: -10px auto;
+}
+
+.svg-wave.rotate {
+    transform: rotate(180deg);
+}
 /* ------------------------------------------ */
 
 body {
@@ -30,9 +43,8 @@ body {
 /* header */
 header {
     margin: 0 auto;
-    width: 1200px;
+    width: 100vw;
     height: 450px;
-    /* background: lightcoral; */
     background: url('../img/jumbo.png') no-repeat center;
     background-size: cover;
 } 
@@ -201,12 +213,7 @@ ul li a {
     line-height: 25px;
 }
 
-/* container video connected */
-.container.vc{
-    background: url(../img/wave.svg);
-    width: 1000px;
-    /* width: 100vw; */
-}
+/* container voice connected */
 /* / container video connected */
 
 /* container fandom */
@@ -217,12 +224,10 @@ ul li a {
 
 /* container just chillin */
 .container.jc {
-    width: 1000px;
     height: 850px;
     text-align: center;
-    background: url('../img/wave.svg');
-    margin-top: 20px;
 }
+
 .jc-text {
     margin: 0 auto;
     width: 800px;
@@ -241,7 +246,6 @@ ul li a {
 
 .jc-ft {
     margin: -100px auto;
-    text-align: center;
     width: 1000px;
     height: 150px;
 }
@@ -266,7 +270,7 @@ ul li a {
 /* footer */
 footer {
     margin: 0 auto;
-    width: 1200px;
+    width: 100vw;
     height: 350px;
     background-color: #22272a;
     padding: 50px 0;
@@ -332,7 +336,7 @@ footer {
 
 .ft-list ul li a{
     margin-right: 10px;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .ft-list ul li:first-child {
